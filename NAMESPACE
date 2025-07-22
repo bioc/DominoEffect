@@ -26,7 +26,7 @@ importFrom(stats, ppois, end)
 importFrom(utils, data, head)
 
 importFrom(VariantAnnotation, info, readVcf)
-importFrom(GenomeInfoDb, seqnames)
+importFrom(Seqinfo, seqnames)
 importFrom(AnnotationDbi, select, keys)
 importFrom(SummarizedExperiment, rowRanges)
 importFrom(IRanges, ranges, subject)
