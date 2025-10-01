@@ -16,7 +16,7 @@ importFrom(stats, aggregate, dbinom, p.adjust)
 importFrom(biomaRt, useMart, getBM, getSequence, exportFASTA, listDatasets)
 importFrom(Biostrings, readAAStringSet, width, AAString, subseq)
 importFrom(Biostrings, subseq, countPattern, matchPattern, pattern, start, nchar)
-importFrom(pwalign, pairwiseAlignment, pid)
+importFrom(pwalign, pairwiseAlignment, pid, pattern)
 
 importFrom(data.table, setkey)
 importFrom(data.table, data.table)
